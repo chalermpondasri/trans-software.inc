@@ -48,14 +48,14 @@
 	<GenericDialog>
 		<Item Name="OK">ตกลง</Item>
 		<Item Name="Cancel">ยกเลิก</Item>
-		<Item Name="Yes">ใช่แล้ว</Item>
+		<Item Name="Yes">ใช่</Item>
 		<Item Name="No">ไม่ใช่</Item>
 		<Item Name="Error">ผิดพลาด</Item>
 	</GenericDialog>
 	<MainPanel>
 		<Item Name="HR">งานบุคคล</Item>
 		<Item Name="Finance">งานการเงิน</Item>
-		<Item Name="Marketplace">ตลาด</Item>
+		<Item Name="Marketplace">การตลาด</Item>
 		<Item Name="MainDevSoft">พัฒนาระบบ</Item>
 		<Item Name="MainDevSoftDesc">ออกแบบและเผยแพร่งานของตัวเอง</Item>
 		<Item Name="MainPlayerRelease">ผลงานของคุณ</Item>
@@ -133,9 +133,9 @@
 		<Item Name="Profit">กำไร</Item>
 		<Item Name="Open source">โอเพ่นซอร์ส</Item>
 		<Item Name="Loss">ขาดทุน</Item>
-		<Item Name="Market">ตลาด</Item>
+		<Item Name="Market">การตลาด</Item>
 		<Item Name="Details">รายละเอียด</Item>
-		<Item Name="Worth">คุ้มค่า</Item>
+		<Item Name="Worth">ทรัพย์สิน</Item>
 		<Item Name="Reputation">ชื่อเสียง</Item>
 		<Item Name="Bankrupt">ล้มละลาย</Item>
 		<Item Name="Founded">ก่อตั้ง</Item>
@@ -144,7 +144,7 @@
 		<Item Name="Stock">หุ้น</Item>
 		<Item Name="Owner">เจ้าของ</Item>
 		<Item Name="Share">ส่วนแบ่ง</Item>
-		<Item Name="Change">อัตราและเปลี่ยน</Item>
+		<Item Name="Change">เติบโต</Item>
 		<Item Name="Cost">ราคา</Item>
 		<Item Name="Sell">ขาย</Item>
 		<Item Name="Buy">ซื้อ</Item>
@@ -152,14 +152,14 @@
 		<Item Name="Compatibility">ความเข้ากันได้</Item>
 		<Item Name="Work">งาน</Item>
 		<Item Name="Employees">ลูกจ้าง</Item>
-		<Item Name="Arrival">ขาเข้า</Item>
+		<Item Name="Arrival">เข้างาน</Item>
 		<Item Name="+">+</Item>
 		<Item Name="-">-</Item>
-		<Item Name="Departure">ขาออก</Item>
+		<Item Name="Departure">เลิกงาน</Item>
 		<Item Name="Disband">แยกย้าย</Item>
 		<Item Name="Automation">อัตโนมัติ</Item>
 		<Item Name="Type">ประเภท</Item>
-		<Item Name="Dismiss">ผ่านไป</Item>
+		<Item Name="Dismiss">ยกเลิก</Item>
 		<Item Name="Progress">ความคืบหน้า</Item>
 		<Item Name="Contract">สัญญาจ้าง</Item>
 		<Item Name="Months">เดือน</Item>
@@ -213,7 +213,7 @@
 		<Item Name="Server">เซิฟเวอร์</Item>
 		<Item Name="SCM">SCM</Item>
 		<Item Name="SCMLong">ระบบจัดการซอร์สโค๊ด</Item>
-		<Item Name="SCMDesc">ทำให้ซอร์สโค๊ดจัดการอยู่ในที่เดียว, ทำให้ลดการเกิดบั๊คและทำให้โปรแกรมเมอร์ทำงานในช่วง Alpha ได้มีประสิทธิภาพขึ้น. ต้องใช้เซิฟเวอร์.</Item>
+		<Item Name="SCMDesc">ทำให้ซอร์สโค๊ดถูกจัดการอยู่ที่ศูนย์กลาง, ทำให้ลดการเกิดบั๊คและทำให้โปรแกรมเมอร์ทำงานในช่วงอัลฟ่าได้มีประสิทธิภาพขึ้น. ต้องใช้เซิฟเวอร์.</Item>
 		<Item Name="Information">ข้อมูล</Item>
 		<Item Name="Dependencies">ความต้องการ</Item>
 		<Item Name="Operating system">ระบบปฏิบัติการ</Item>
@@ -245,8 +245,8 @@
 		<Item Name="QualityAmount6">สุดยอด</Item>
 		<Item Name="PerceptionAmount1">ถูกลืม</Item>
 		<Item Name="PerceptionAmount2">น่าเบื่อ</Item>
-		<Item Name="PerceptionAmount3">Decent</Item>
-		<Item Name="PerceptionAmount4">เหมาะสม</Item>
+		<Item Name="PerceptionAmount3">เหมาะสม</Item>
+		<Item Name="PerceptionAmount4">ประทับใจ</Item>
 		<Item Name="PerceptionAmount5">สำคัญ</Item>
 		<Item Name="PerceptionAmount6">เป็นที่เลื่องลือ</Item>
 		<Item Name="AwarenessAmount1">คลุมเครือ</Item>
@@ -256,106 +256,105 @@
 		<Item Name="AwarenessAmount5">เป็นที่นิยม</Item>
 	</DesignWindow>
 	<AutoWindow>
-		<Item Name="Project management">Project management</Item>
-		<Item Name="ProjectManagementHint">To enable this, the team leader must have taken a course in project management through the education program</Item>
-		<Item Name="HR management">HR management</Item>
-		<Item Name="HRManagementHint">To enable this, the team leader must have taken a course in HR management through the education program</Item>
-		<Item Name="Dev budget">Dev budget</Item>
-		<Item Name="Marketing budget">Marketing budget</Item>
-		<Item Name="Pre-marketing">Pre-marketing</Item>
-		<Item Name="Post-marketing">Post-marketing</Item>
-		<Item Name="Support">Support</Item>
-		<Item Name="Dev team">Dev team</Item>
-		<Item Name="Marketing team">Marketing team</Item>
-		<Item Name="Support team">Support team</Item>
-		<Item Name="Primary role">Primary role</Item>
-		<Item Name="Secondary role">Secondary role</Item>
-		<Item Name="Budget">Budget</Item>
+		<Item Name="Project management">การจัดการโครงการ</Item>
+		<Item Name="ProjectManagementHint">เพื่อใช้งานโหมดนี้ หัวหน้าทีมต้องได้รับการอบรมการจัดการโครงการก่อน</Item>
+		<Item Name="HR management">การจัดการบุคคล</Item>
+		<Item Name="HRManagementHint">เพื่อใช้งานโหมดนี้ หัวหน้าทีมต้องได้รับการอบรมการจัดการบุคคลก่อน</Item>
+		<Item Name="Dev budget">งบพัฒนา</Item>
+		<Item Name="Marketing budget">งบการตลาด</Item>
+		<Item Name="Pre-marketing">ช่วงก่อนการตลาด</Item>
+		<Item Name="Post-marketing">ช่วงหลังการตลาด</Item>
+		<Item Name="Support">สนับสนุน</Item>
+		<Item Name="Dev team">ทีมพัฒนา</Item>
+		<Item Name="Marketing team">ทีมการตลาด</Item>
+		<Item Name="Support team">ทีมสนับสนุน</Item>
+		<Item Name="Primary role">หน้าที่หลัก</Item>
+		<Item Name="Secondary role">หน้าที่รอง</Item>
+		<Item Name="Budget">งบประมาณ</Item>
 	</AutoWindow>
 	<ServerWindow>
-		<Item Name="ServerRename">Server name...</Item>
-		<Item Name="Rename">Rename</Item>
-		<Item Name="Redelegate selected">Redelegate selected</Item>
-		<Item Name="UnsupportedProc">View unsupported processes</Item>
-		<Item Name="Processes">Processes</Item>
+		<Item Name="ServerRename">ชื่อเซิฟเวอร์...</Item>
+		<Item Name="Rename">เปลี่ยนชื่อ</Item>
+		<Item Name="Redelegate selected">โยกย้ายงานที่เลือก</Item>
+		<Item Name="UnsupportedProc">ดูโปรเซสที่ไม่มีระบบรองรับ</Item>
+		<Item Name="Processes">โปรเซส</Item>
 	</ServerWindow>
 	<HireWindows>
-		<Item Name="Begin looking">Begin looking</Item>
-		<Item Name="Remove 10">Remove 10</Item>
-		<Item Name="Interview">Interview</Item>
+		<Item Name="Begin looking">เริ่มมองหา</Item>
+		<Item Name="Remove 10">เอาออก 10</Item>
+		<Item Name="Interview">สัมภาษณ์</Item>
 	</HireWindows>
 	<EducationWindow>
-		<Item Name="Start education">Start education</Item>
-		<Item Name="ProjectCourseDesc">Project management allows a leader to take over a development cycle by automatically designing new products and delegating work to specific teams.</Item>
-		<Item Name="HRCourseDesc">HR management allows a leader to take over HR responsibilities, like hiring, firing, settling disputes, raises and education.</Item>
+		<Item Name="Start education">เริ่มฝึกอบรม</Item>
+		<Item Name="ProjectCourseDesc">การจัดการโครงการจะทำให้ผู้นำทีมสามารถดูแลโครงการได้ด้วยตัวเอง โดยจะออกแบบผลิตภัณฑ์ใหม้่พร้อมทั้งจัดการแบ่งงานให้ทีมได้อย่างอิสระ</Item>
+		<Item Name="HRCourseDesc">การจัดการทรัพยากรบุคคล จะทำให้ผู้นำทีมมีอำนาจในการบริหารงานบุคคลเช่น การว่าจ้าง ไล่ออก allows a leader to take over HR responsibilities, like hiring, firing, ระงับข้อพิพาท, การขึ้นเงินเดือน และการอบรม.</Item>
 	</EducationWindow>
 	<DistributionWindow>
-		<Item Name="Make Deal">Make deal</Item>
-		<Item Name="Take offline">Take offline</Item>
-		<Item Name="Popularity history">Popularity history</Item>
-		<Item Name="Your distribution channel">Your distribution channel</Item>
-		<Item Name="Cut">Cut</Item>
-		<Item Name="Open">Open</Item>
-		<Item Name="StoreName">Store name...</Item>
+		<Item Name="Make Deal">เซ็นต์สัญญา</Item>
+		<Item Name="Take offline">ปิดระบบ</Item>
+		<Item Name="Popularity history">ประวัติความนิยม</Item>
+		<Item Name="Your distribution channel">ช่องทางการจำหน่าย</Item>
+		<Item Name="Cut">ค่าธรรมเนียม</Item>
+		<Item Name="Open">เปิด</Item>
+		<Item Name="StoreName">ชื่อร้าน...</Item>
 	</DistributionWindow>
 	<WageWindow>
-		<Item Name="Employee request">Employee request</Item>
-		<Item Name="Accept">Accept</Item>
-		<Item Name="Close">Close</Item>
+		<Item Name="Employee request">คำร้องขอจากพนักงาน</Item>
+		<Item Name="Accept">ยอมรับ</Item>
+		<Item Name="Close">ปิด</Item>
 	</WageWindow>
 	<LoanWindow>
-		<Item Name="Amount">Amount</Item>
-		<Item Name="Interest">Interest</Item>
-		<Item Name="Period">Period</Item>
-		<Item Name="Current loans">Current loans</Item>
-		<Item Name="Take loan">Take loan</Item>
+		<Item Name="Amount">จำนวน</Item>
+		<Item Name="Interest">ดอกเบี้ย</Item>
+		<Item Name="Period">ระยะเวลา</Item>
+		<Item Name="Current loans">การกู้ยืมปัจจุบัน</Item>
+		<Item Name="Take loan">ขอกู้ยืม</Item>
 	</LoanWindow>
 	<InsuranceWindow>
-		<Item Name="Deposit">Deposit</Item>
-		<Item Name="Withdraw">Withdraw</Item>
-		<Item Name="InsuranceFunds">Funds on insurance account</Item>
-		<Item Name="HealthInsurance">Health insurance:(Attracts junior level employees)</Item>
-		<Item Name="LifeInsurance">Life insurance:(Attracts intermediate level employees)</Item>
-		<Item Name="PensionDesc">Pension:(Attracts senior level employees)</Item>
-		<Item Name="PerEmployee">per employee</Item>
+		<Item Name="Deposit">ฝาก</Item>
+		<Item Name="Withdraw">ถอน</Item>
+		<Item Name="InsuranceFunds">เงินในบัญชีประกัน</Item>
+		<Item Name="HealthInsurance">ประกันสุขภาพ:(ดึงดูดพนักงานวัยรุ่น)</Item>
+		<Item Name="LifeInsurance">ประกันชีวิต:(ดึงดูดพนักงานระดับกลาง)</Item>
+		<Item Name="PensionDesc">บำนาญ:(ดึงดูดพนักงานอาวุโส)</Item>
+		<Item Name="PerEmployee">ต่อพนักงาน</Item>
 	</InsuranceWindow>
 	<StockWindow>
-		<Item Name="SharesIn">Shares in company:</Item>
-		<Item Name="SharesOut">Owned shares:</Item>
+		<Item Name="SharesIn">ส่วนแบ่งในบริษัท:</Item>
+		<Item Name="SharesOut">ส่วนแบ่งภายนอก:</Item>
 	</StockWindow>
 	<StaffWindow>
-		<Item Name="Permanent">Permanent</Item>
-		<Item Name="Temporary">Temporary</Item>
-		<Item Name="Call janitor">Call maintenance</Item>
-		<Item Name="Call cleaning">Call cleaning</Item>
-		<Item Name="Call IT-support">Call IT-support</Item>
-		<Item Name="Hire janitor">Hire maintenance</Item>
-		<Item Name="Hire cleaning">Hire cleaning</Item>
-		<Item Name="PerHour"> per hour</Item>
-		<Item Name="PerMonth"> per month</Item>
-		<Item Name="ITPayment">{0} up front
-Up to {0} per repair</Item>
+		<Item Name="Permanent">ถาวร</Item>
+		<Item Name="Temporary">ชั่วคราว</Item>
+		<Item Name="Call janitor">เรียกใช้ช่างซ่อมบำรุง</Item>
+		<Item Name="Call cleaning">เรียกใช้แม่บ้าน</Item>
+		<Item Name="Call IT-support">เรียกใช้ไอทีซัพพอร์ต</Item>
+		<Item Name="Hire janitor">จ้างช่างซ่อมบำรุง</Item>
+		<Item Name="Hire cleaning">จ้างแม่บ้าน</Item>
+		<Item Name="PerHour"> ต่อชั่วโมง</Item>
+		<Item Name="PerMonth"> ต่อเดือน</Item>
+		<Item Name="ITPayment">เริ่มต้น {0} จนถึง {0} ต่องานซ่อม</Item>
 	</StaffWindow>
 	<Newspaper>
-		<Item Name="Review section">Review section</Item>
-		<Item Name="Business section">Business section</Item>
-		<Item Name="Industry section">Industry section</Item>
-		<Item Name="Player section">You</Item>
+		<Item Name="Review section">หมวดรีวิว</Item>
+		<Item Name="Business section">หมวดกิจการ</Item>
+		<Item Name="Industry section">หมวดอุตสาหกรรม</Item>
+		<Item Name="Player section">คุณ</Item>
 	</Newspaper>
 	<Pause>
-		<Item Name="Resume">Resume</Item>
-		<Item Name="Save game">Save game</Item>
-		<Item Name="Save game as">Save game as...</Item>
-		<Item Name="Load game">Load game</Item>
-		<Item Name="Quit to menu">Quit to menu</Item>
-		<Item Name="Quit to desktop">Quit to desktop</Item>
+		<Item Name="Resume">เล่นต่อ</Item>
+		<Item Name="Save game">บันทึกเกม</Item>
+		<Item Name="Save game as">บันทึกเกมเป็น...</Item>
+		<Item Name="Load game">โหลดเกม</Item>
+		<Item Name="Quit to menu">ออกไปสู่เมนูหลัก</Item>
+		<Item Name="Quit to desktop">ออกไปหน้าจอ</Item>
 	</Pause>
 	<Marketing>
-		<Item Name="Interwebs">Interwebs</Item>
-		<Item Name="Radio">Radio</Item>
-		<Item Name="Newspapers">Newspapers</Item>
-		<Item Name="Television">Television</Item>
-		<Item Name="Start campaign">Start campaign</Item>
+		<Item Name="Interwebs">อินเตอร์เว็บ</Item>
+		<Item Name="Radio">วิทยุ</Item>
+		<Item Name="Newspapers">หนังสือพิมพ์</Item>
+		<Item Name="Television">โทรทัศน์</Item>
+		<Item Name="Start campaign">เริ่มโฆษณา</Item>
 	</Marketing>
 	<OptionsWindow>
 		<Item Name="Auto-skip day">Auto-skip day</Item>
