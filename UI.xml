@@ -14,7 +14,7 @@
 		<Item Name="December">December</Item>
 	</Months>
 	<MainMenu>
-		<Item Name="New Game">New Game</Item>
+		<Item Name="New Game">เริ่มเกมใหม่</Item>
 		<Item Name="Options">Options</Item>
 		<Item Name="Continue">Continue</Item>
 		<Item Name="Load Game">Load Game</Item>
