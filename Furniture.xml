@@ -1,10 +1,26 @@
 <Furniture>
 	<Furniture Name="Elevator">
 		<Name>Elevator</Name>
-		<Description>Place elevators on top of eachother to connect rooms on different floors</Description>
+		<Description>Place elevators on top of each other to connect rooms on different floors</Description>
 	</Furniture>
 	<Furniture Name="Stairs">
 		<Name>Stairs</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Left Quarter Turn Stairs">
+		<Name>Left Quarter Turn Stairs</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Right Quarter Turn Stairs">
+		<Name>Right Quarter Turn Stairs</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Left Turn Stairs">
+		<Name>Left Turn Stairs</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Right Turn Stairs">
+		<Name>Right Turn Stairs</Name>
 		<Description></Description>
 	</Furniture>
 	<Furniture Name="Table">
@@ -40,6 +56,13 @@
 		<Color2>Back</Color2>
 		<Color3>Support</Color3>
 	</Furniture>
+	<Furniture Name="Executive Chair">
+		<Name>Executive Chair</Name>
+		<Description>For maximum chairing</Description>
+		<Color1>Seat</Color1>
+		<Color2>Back</Color2>
+		<Color3>Support</Color3>
+	</Furniture>
 	<Furniture Name="Waiting Chairs">
 		<Name>Waiting Chairs</Name>
 		<Description></Description>
@@ -49,7 +72,6 @@
 	<Furniture Name="Couch">
 		<Name>Couch</Name>
 		<Description>Living Room Inc.</Description>
-		<Color1>Fabric</Color1>
 	</Furniture>
 	<Furniture Name="Bench">
 		<Name>Bench</Name>
@@ -77,20 +99,21 @@
 		<Name>Ventilation</Name>
 		<Description>Small ventilation unit that takes air directly from the other side of a wall.</Description>
 		<Color1>Base</Color1>
+		<Color2>Fan</Color2>
 	</Furniture>
 	<Furniture Name="Central Heating">
 		<Name>Central Heating</Name>
-		<Description>Industrial strength central heating unit to heat up entire buildings. Optimal heating for 375 m^2.</Description>
+		<Description>Industrial strength central heating unit to heat up entire buildings.</Description>
 		<Color1>Base</Color1>
 	</Furniture>
 	<Furniture Name="AC Unit">
 		<Name>AC Unit</Name>
-		<Description>Industrial strength air conditioning unit to cool down entire building complexes. Has to be placed above ground.  Optimal cooling for 375 m^2.</Description>
+		<Description>Industrial strength air conditioning unit to cool down entire building complexes. Has to be placed above ground.</Description>
 		<Color1>Base</Color1>
 	</Furniture>
 	<Furniture Name="Industrial ventilation">
 		<Name>Industrial ventilation</Name>
-		<Description>This fan was designed to cool a room down to accomodate servers, i.e. not people</Description>
+		<Description>This fan was designed to cool a room down to accommodate servers, i.e. not people</Description>
 		<Color1>Base</Color1>
 		<Color2>Blades</Color2>
 	</Furniture>
@@ -126,7 +149,7 @@
 	</Furniture>
 	<Furniture Name="Cubicle wall">
 		<Name>Cubicle wall</Name>
-		<Description>Place these walls intelligenty to reduce noise around work spaces. Note that cubicle walls increase employee isolation.</Description>
+		<Description>Place these walls intelligently to reduce noise around work spaces. Note that cubicle walls increase employee isolation.</Description>
 	</Furniture>
 	<Furniture Name="Lamp">
 		<Name>Lamp</Name>
@@ -201,8 +224,8 @@
 		<Description>Poop machine</Description>
 		<Color1>Base</Color1>
 	</Furniture>
-	<Furniture Name="Watercooler">
-		<Name>Watercooler</Name>
+	<Furniture Name="WaterCooler">
+		<Name>WaterCooler</Name>
 		<Description>A place for employees to socialize</Description>
 		<Color1>Shade</Color1>
 		<Color2>Support</Color2>
@@ -319,13 +342,25 @@
 		<Name>Small Product Printer</Name>
 		<Description>A small floppy printer to print your products</Description>
 	</Furniture>
+	<Furniture Name="Medium Product Printer">
+		<Name>Medium Product Printer</Name>
+		<Description>A medium disc printer</Description>
+	</Furniture>
+	<Furniture Name="Large Product Printer">
+		<Name>Large Product Printer</Name>
+		<Description>Prints smaller copies so couriers can carry more</Description>
+	</Furniture>
 	<Furniture Name="Pallet">
 		<Name>Pallet</Name>
-		<Description>Can support up to 27 boxes with 1000 copies in each. Needs to be in the same room as a printer</Description>
+		<Description>Can support up to 27 boxes of copies. Needs to be in the same room as a printer</Description>
 	</Furniture>
 	<Segment Name="Standard door">
 		<Name>Standard door</Name>
 		<Description>It's a door...</Description>
+	</Segment>
+	<Segment Name="Cased opening">
+		<Name>Cased opening</Name>
+		<Description></Description>
 	</Segment>
 	<Segment Name="Sliding glass door">
 		<Name>Sliding glass door</Name>

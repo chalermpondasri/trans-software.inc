@@ -15,7 +15,7 @@
 	<Item Name="SoftwareIntroSequel0">{0} is a sequel to the flop {1}</Item>
 	<Item Name="SoftwareIntroSequel1">{0} is a sequel to {1}</Item>
 	<Item Name="SoftwareIntroSequel2">{0} is a sequel to the highly regarded {1}</Item>
-	<Item Name="SoftwareIntroSequelAdd0"> but it isn't that great</Item>
+	<Item Name="SoftwareIntroSequelAdd0">, but it isn't as good</Item>
 	<Item Name="SoftwareIntroSequelAdd1"> and it is living up to expectations</Item>
 	<Item Name="SoftwareBodyCompany0">We haven't heard of {0} before</Item>
 	<Item Name="SoftwareBodyCompany1">We don't know who {0} even is</Item>
@@ -38,7 +38,7 @@
 	<Item Name="SoftwareBodyBugs1">This is certainly not a bug free product</Item>
 	<Item Name="SoftwareBodyBugs2">There were some glitches</Item>
 	<Item Name="SoftwareBodyBugs3">It seems the dev left behind some bugs</Item>
-	<Item Name="SoftwareBodyBugAddon0">, they almost made the product unsuable</Item>
+	<Item Name="SoftwareBodyBugAddon0">, they almost made the product unusable</Item>
 	<Item Name="SoftwareBodyBugAddon1">, we expect lots of refunds</Item>
 	<Item Name="SoftwareBodyBugAddon2">, they are going to have a hard time supporting it</Item>
 	<Item Name="SoftwareBodyOverall0">{0} is really bad quality</Item>

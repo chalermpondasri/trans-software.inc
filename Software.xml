@@ -30,7 +30,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			</Feature>
 			<Feature Name="Multithreading">
 				<Name>Multithreading</Name>
-				<Description>Multithreading allows the Operating System to run mulitple threads at the same time by continually switching between them intelligently, speeding up applications and confusing developers to no end.</Description>
+				<Description>Multithreading allows the Operating System to run multiple threads at the same time by continually switching between them intelligently, speeding up applications and confusing developers to no end.</Description>
 			</Feature>
 			<Feature Name="Multitasking">
 				<Name>Multitasking</Name>
@@ -253,7 +253,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			</Feature>
 			<Feature Name="Scripting">
 				<Name>Scripting</Name>
-				<Description>Seperate the game logic from the logic logic</Description>
+				<Description>Separate the game logic from the logic logic</Description>
 			</Feature>
 			<Feature Name="Visual scripting">
 				<Name>Visual scripting</Name>
@@ -391,7 +391,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			</Feature>
 			<Feature Name="Animations">
 				<Name>Animations</Name>
-				<Description>What better way to make your presention seem cheesy</Description>
+				<Description>What better way to make your presentation seem cheesy</Description>
 			</Feature>
 			<Feature Name="Sound effects">
 				<Name>Sound effects</Name>
@@ -599,8 +599,4 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Features>
 		<Categories></Categories>
 	</Software>
-	<Feature Name="QA">
-		<Name>QA</Name>
-		<Description>Use Quality Assurance to release a more stable product or fix the bugs as your customers irritably stumble into them</Description>
-	</Feature>
 </Software>
